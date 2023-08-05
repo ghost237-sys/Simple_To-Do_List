@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+{% if user.todolist.all %}
+        {%  for td in user.todolist.all %}
+                <p><a href="/{{td.id}}">{{td.name}}</a></p>
+        {% endfor %}
+{%else%}
+<p>Please create a List</p>
+{%endif%}
+{% endblock%}

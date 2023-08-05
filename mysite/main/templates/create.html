@@ -1,0 +1,16 @@
+{%extends "base.html"%}
+{%block title%}Create New List{%endblock%}
+{%block content%}
+        <h2>Create A New ToDoList</h2>
+    {%if form.errors %}
+    <p>Theres a problem with your form. Maybe the name for your list exists.</p>
+    {%endif%}
+        <form method="POST" action="/create/">
+            {%csrf_token%}
+            {{form.as_p}}
+            <div class="container-fluid">
+            <button type="submit" class="btn btn-success" name="save">Create New</button>
+            </div>
+
+        </form>
+{%endblock%}

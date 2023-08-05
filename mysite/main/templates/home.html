@@ -1,0 +1,11 @@
+{%extends "base.html"%}
+{%block content%}
+{% if user.is_authenticated %}
+    <p>Welcome, {{ user.username }}. Thanks for logging in.</p>
+    <a href="{%  url 'logout' %}">Logout</a>
+{% else %}
+<br></b>
+    <a  class="link-opacity-25-hover"href="{% url 'register' %}">Register</a>
+    <a  class="link-opacity-25-hover"href="{% url 'login' %}">Login</a>
+{% endif %}
+{%endblock%}
