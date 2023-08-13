@@ -1,29 +1,29 @@
 This is a simple To-Do List Web application i made using Python Django and some bootstraps to add to its beuty
 
-### INTRUCTIONS
+# INTRUCTIONS
 
 After cloning the repository make sure you install the required apps in the requirements.txt
 
-# Install Django
+## Install Django
 pip install Django
 
 
-# Install Bootstraps
+## Install Bootstraps
 pip install django-bootstrap-v5
 
 Alternatevely 
-# Use the requirements.txt
+## Use the requirements.txt
 pip install -r requirements.txt
 
-# Create a super user
+## Create a super user
 python manage.py createsuperuser
 
-# check migrations
+## check migrations
 
 python manage.py makemigrations
 python manage.py migrate
 
-# For deployment purposes
+## For deployment purposes
 Change The settings.py for the allowed hosts if you are plannig on deployment
 
 ['*"]
