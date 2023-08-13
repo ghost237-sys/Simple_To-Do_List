@@ -23,7 +23,8 @@ python manage.py createsuperuser
 python manage.py makemigrations
 python manage.py migrate
 
-# Change The settings.py for the allowed hosts if you are plannig on deployment
+# For deployment purposes
+Change The settings.py for the allowed hosts if you are plannig on deployment
 
 ['*"]
 
