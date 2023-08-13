@@ -2,7 +2,8 @@ This is a simple To-Do List Web application i made using Python Django and some 
 
 # INTRUCTIONS
 
-After cloning the repository make sure you install the required apps in the requirements.txt
+## Cloning
+git clone https://github.com/ghost237-sys/Simple_To-Do_List.git
 
 ## Install Django
 pip install Django
