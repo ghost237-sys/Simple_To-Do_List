@@ -27,6 +27,7 @@ python manage.py migrate
 
 added a collaborator to this repository
 anothr one 
+This is a new commit
 
 ## For deployment purposes
 Change The settings.py for the allowed hosts if you are plannig on deployment
