@@ -26,9 +26,11 @@ python manage.py migrate
 
 
 added a collaborator to this repository
+anothr one 
 
 ## For deployment purposes
 Change The settings.py for the allowed hosts if you are plannig on deployment
+
 
 ['*"]
 
